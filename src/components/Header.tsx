@@ -49,7 +49,7 @@ export function Header() {
               ॐ
             </div>
             <div className="hidden sm:block">
-              <div className={`font-display font-bold text-lg leading-none ${scrolled ? 'text-maroon' : 'text-white text-shadow-md'}`}>
+              <div className={`font-display font-bold text-lg leading-none ${scrolled ? 'text-gold' : 'text-gold text-shadow-md'}`}>
                 SANATHAN YOUTH
               </div>
               <div className={`text-[10px] font-heading tracking-widest ${scrolled ? 'text-primary-600' : 'text-gold text-shadow-sm'}`}>
@@ -63,7 +63,7 @@ export function Header() {
               <Link
                 key={link.path}
                 to={link.path}
-                className={`nav-link ${scrolled ? 'text-maroon' : 'text-white text-shadow-sm'}`}
+                className={`nav-link ${scrolled ? 'text-maroon' : 'text-gold text-shadow-sm'}`}
               >
                 {link.label}
               </Link>
@@ -73,21 +73,21 @@ export function Header() {
           <div className="flex items-center gap-2">
             <button
               onClick={() => setSearchOpen(!searchOpen)}
-              className={`p-2 rounded-full transition-colors ${scrolled ? 'text-maroon hover:bg-primary-100' : 'text-white hover:bg-white/20'}`}
+              className={`p-2 rounded-full transition-colors ${scrolled ? 'text-maroon hover:bg-primary-100' : 'text-gold hover:bg-white/20'}`}
               aria-label="Search"
             >
               <Search size={20} />
             </button>
             <Link
               to="/admin"
-              className={`p-2 rounded-full transition-colors ${scrolled ? 'text-maroon hover:bg-primary-100' : 'text-white hover:bg-white/20'}`}
+              className={`p-2 rounded-full transition-colors ${scrolled ? 'text-maroon hover:bg-primary-100' : 'text-gold hover:bg-white/20'}`}
               aria-label="Admin"
             >
               <Shield size={20} />
             </Link>
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
-              className={`lg:hidden p-2 rounded-full transition-colors ${scrolled ? 'text-maroon hover:bg-primary-100' : 'text-white hover:bg-white/20'}`}
+              className={`lg:hidden p-2 rounded-full transition-colors ${scrolled ? 'text-maroon hover:bg-primary-100' : 'text-gold hover:bg-white/20'}`}
               aria-label="Menu"
             >
               {mobileOpen ? <X size={24} /> : <Menu size={24} />}
