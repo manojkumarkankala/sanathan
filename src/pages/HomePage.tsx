@@ -490,7 +490,7 @@ export function HomePage() {
               <div className="rounded-3xl overflow-hidden shadow-2xl border-4 border-gold/20">
                 {currentYear?.latitude && currentYear?.longitude ? (
                   <iframe
-                    src={`https://www.google.com/maps?q=${currentYear.latitude},${currentYear.longitude}&z=15&output=embed`}
+                    src={`https://www.google.com/maps?q=${17.2333},${78.984}&z=15&output=embed`}
                     className="w-full h-80"
                     loading="lazy"
                     title="Festival Location"
