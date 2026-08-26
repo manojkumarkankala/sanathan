@@ -97,7 +97,7 @@ export function AdminLogin() {
             </form>
 
             <p className="text-cream/40 text-xs text-center mt-6">
-              Default credentials: admin@sanathanyouth.org / Vinayaka2026!
+              Default credentials: THIS IS FOR ONLY ADMIN
             </p>
           </div>
         </div>
